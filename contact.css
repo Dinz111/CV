@@ -1,0 +1,1235 @@
+/*---------------------------Large Devices---------------------------------*/
+@media (min-width: 1200px){
+*{
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	width:100%;
+	height: auto;
+}
+
+			/*-------------------------Navigation Bar---------------------*/
+			
+.nav{
+	height:90px;
+	width: 100%;
+	background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img{
+	height:80px;
+	width: auto;
+	float: left;
+	margin-left: 20px;
+}
+
+.nav-menu{
+	font-family: 'Teko', sans-serif;
+	font-size: 23px;
+	justify-content: space-around;
+}
+
+
+
+.nav-menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.nav-menu ul li a{
+	text-decoration: none;
+	color:white;
+	letter-spacing: 3px;
+	margin-right: 35px;
+	transition: 0.8s ease;
+}
+
+.nav-menu ul li a:hover{
+	text-decoration: none;
+	letter-spacing: 3px;
+	margin-right: 20px;
+	padding:5px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.nav-menu ul li a span:hover{
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+
+.active a{
+	text-decoration: none;
+	letter-spacing: 3px;
+	margin-right: 20px;
+	padding:5px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.active a span{
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+
+
+/*------------------------------------Banner---------------------------------*/
+.banner-profile{
+	margin-bottom: 150px;
+}
+.banner{
+	margin:10px 0px;
+	height: 400px;
+	width:100%;
+	background:url(pictures/contact.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.banner-text{
+	background:black;
+	opacity: 70%;
+	width: 20%;
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+}
+
+.profile {
+	height: 200px;
+	border-radius: 150px;
+	position: absolute;
+	top: 400px;
+	left: 40%;
+	transition: 1s ease;
+}
+
+
+.profile:hover {
+	transform: scale(1.1);
+}
+
+.name{
+	position: absolute;
+	top: 610px;
+	left: 36.5%;
+	letter-spacing: 15px;
+	font-size: 30px;
+	font-family: Helvetica;
+	font-weight: bolder;
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+ 	 transition: 1s ease;
+}
+
+.name:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+/*----------------------------------Mid-Secion------------------------*/
+.midsection{
+	display: flex;
+	text-align: center;
+
+}
+h2{
+	/*font-size: 30px;*/
+	font-family: Helvetica;
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+/*----------------------------------Map------------------------*/
+.map{
+	height: 350px;
+	width: 400px;
+	flex-basis: 20%;
+	margin:3px 30px 20px 30px;
+}
+/*----------------------------------Form------------------------*/
+.form{
+	line-height: 100%;
+	text-align: center;
+	margin: 10px 0px;
+	flex-basis: 80%;
+}
+
+.form input[type=text]{
+	line-height: 100%;
+	height:45px;
+	text-align: center;
+	margin: 10px 0px;
+	color:#2E86C1;
+	width:40%;
+	outline:none;
+	border:2px solid #2E86C1 ;
+	border-radius: 10px;
+	font-size: 18px;
+	font-family: Verdana;
+	transition: 2s ease;
+}
+
+.form input[type=textarea]{
+	line-height: 100%;
+	height:80px;
+	text-align: center;
+	margin: 10px 0px;
+	color:#2E86C1;
+	width:40%;
+	outline:none;
+	border:2px solid #2E86C1 ;
+	border-radius: 10px;
+	font-size: 18px;
+	font-family: Verdana;
+	transition: 2s ease;
+}
+
+.form input[type=text]:hover{
+	color:white;
+	width:50%;
+	outline:none;
+	background: lightblue;
+	border:2px solid #2E86C1 ;
+	transform: scale(1.1);
+}
+
+.form input[type=textarea]:hover{
+	color:white;
+	width:50%;
+	outline:none;
+	background: lightblue;
+	border:2px solid #2E86C1 ;
+	transform: scale(1.1);
+}
+
+.form input[type=submit], input[type=reset]{
+	padding: 10px;
+	margin:0px 25px;
+	font-family: Helvetica;
+	border-radius: 25px;
+	border: 2px  solid  #2E86C1;
+	background: transparent;
+	outline:none;
+	position: relative;
+	transition: 0.2s ease;
+
+}
+
+.form input[type=submit]:hover{
+	padding: 10px;
+	margin:0px 25px;
+	font-family: Helvetica;
+	border-radius: 25px;
+	border: 2px  solid  #2E86C1;
+	background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0); 
+	color:white;
+	outline:none;
+	cursor:pointer;
+}
+
+.form input[type=reset]:hover{
+	padding: 10px;
+	margin:0px 25px;
+	font-family: Helvetica;
+	border-radius: 25px;
+	color:white;
+	border: 2px  solid  #2E86C1;
+	background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+	outline:none;
+	cursor:pointer;
+}
+
+
+
+
+
+
+/*-------------------Footer--------------*/
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+footer .fa {
+  padding: 2px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  transition: 0.7s ease-in-out;
+}
+
+#facebook:hover{
+  color:white;
+  background:blue;
+  width: 15px;
+  padding:5px;
+}
+
+#twitter:hover{
+  color:white;
+  background:#00acee;
+  width: 15px;
+  padding:5px;
+}
+
+#instagram:hover{
+  color:white;
+  background:skyblue;
+  width: 15px;
+  padding:5px;
+  background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+}
+
+
+/*--------------------------- Little Large Devices---------------------------------*/
+@media (min-width: 992px) and (max-width: 1199px){
+*{
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	width:100%;
+	height: auto;
+}
+
+			/*-------------------------Navigation Bar---------------------*/
+			
+.nav{
+	height:90px;
+	width: 100%;
+	background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img{
+	height:80px;
+	width: auto;
+	float: left;
+	margin-left: 20px;
+}
+
+.nav-menu{
+	font-family: 'Teko', sans-serif;
+	font-size: 23px;
+	justify-content: space-around;
+}
+
+
+
+.nav-menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.nav-menu ul li a{
+	text-decoration: none;
+	color:white;
+	letter-spacing: 3px;
+	margin-right: 35px;
+	transition: 0.8s ease;
+}
+
+.nav-menu ul li a:hover{
+	text-decoration: none;
+	letter-spacing: 3px;
+	margin-right: 20px;
+	padding:5px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.nav-menu ul li a span:hover{
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+
+.active a{
+	text-decoration: none;
+	letter-spacing: 3px;
+	margin-right: 20px;
+	padding:5px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.active a span{
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+
+
+/*------------------------------------Banner---------------------------------*/
+.banner-profile{
+	margin-bottom: 150px;
+}
+.banner{
+	margin:10px 0px;
+	height: 400px;
+	width:100%;
+	background:url(pictures/contact.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.banner-text{
+	background:black;
+	opacity: 70%;
+	width: 20%;
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+}
+
+.profile {
+	height: 200px;
+	border-radius: 150px;
+	position: absolute;
+	top: 400px;
+	left: 40%;
+	transition: 1s ease;
+}
+
+
+.profile:hover {
+	transform: scale(1.1);
+}
+
+.name{
+	position: absolute;
+	top: 610px;
+	left: 36.5%;
+	letter-spacing: 15px;
+	font-size: 30px;
+	font-family: Helvetica;
+	font-weight: bolder;
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+ 	 transition: 1s ease;
+}
+
+.name:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+/*----------------------------------Mid-Secion------------------------*/
+.midsection{
+	display: flex;
+	text-align: center;
+
+}
+h2{
+	/*font-size: 30px;*/
+	font-family: Helvetica;
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+/*----------------------------------Map------------------------*/
+.map{
+	height: 350px;
+	width: 400px;
+	flex-basis: 20%;
+	margin:3px 30px 20px 30px;
+}
+/*----------------------------------Form------------------------*/
+.form{
+	line-height: 100%;
+	text-align: center;
+	margin: 10px 0px;
+	flex-basis: 80%;
+}
+
+.form input[type=text]{
+	line-height: 100%;
+	height:45px;
+	text-align: center;
+	margin: 10px 0px;
+	color:#2E86C1;
+	width:50%;
+	outline:none;
+	border:2px solid #2E86C1 ;
+	border-radius: 10px;
+	font-size: 18px;
+	font-family: Verdana;
+	transition: 2s ease;
+}
+
+.form input[type=textarea]{
+	line-height: 100%;
+	height:80px;
+	text-align: center;
+	margin: 10px 0px;
+	color:#2E86C1;
+	width:50%;
+	outline:none;
+	border:2px solid #2E86C1 ;
+	border-radius: 10px;
+	font-size: 18px;
+	font-family: Verdana;
+	transition: 2s ease;
+}
+
+.form input[type=text]:hover{
+	color:white;
+	width:50%;
+	outline:none;
+	background: lightblue;
+	border:2px solid #2E86C1 ;
+	transform: scale(1.1);
+}
+
+.form input[type=textarea]:hover{
+	color:white;
+	width:50%;
+	outline:none;
+	background: lightblue;
+	border:2px solid #2E86C1 ;
+	transform: scale(1.1);
+}
+
+.form input[type=submit], input[type=reset]{
+	padding: 10px;
+	margin:0px 25px;
+	font-family: Helvetica;
+	border-radius: 25px;
+	border: 2px  solid  #2E86C1;
+	background: transparent;
+	outline:none;
+	position: relative;
+	transition: 0.2s ease;
+
+}
+
+.form input[type=submit]:hover{
+	padding: 10px;
+	margin:0px 25px;
+	font-family: Helvetica;
+	border-radius: 25px;
+	border: 2px  solid  #2E86C1;
+	background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0); 
+	color:white;
+	outline:none;
+	cursor:pointer;
+}
+
+.form input[type=reset]:hover{
+	padding: 10px;
+	margin:0px 25px;
+	font-family: Helvetica;
+	border-radius: 25px;
+	color:white;
+	border: 2px  solid  #2E86C1;
+	background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+	outline:none;
+	cursor:pointer;
+}
+
+
+
+
+
+
+/*-------------------Footer--------------*/
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+footer .fa {
+  padding: 2px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  transition: 0.7s ease-in-out;
+}
+
+#facebook:hover{
+  color:white;
+  background:blue;
+  width: 15px;
+  padding:5px;
+}
+
+#twitter:hover{
+  color:white;
+  background:#00acee;
+  width: 15px;
+  padding:5px;
+}
+
+#instagram:hover{
+  color:white;
+  background:skyblue;
+  width: 15px;
+  padding:5px;
+  background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+}
+
+
+
+/*--------------------------- Tablet Devices---------------------------------*/
+@media (min-width: 768px) and (max-width: 991px){
+*{
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	width:100%;
+	height: auto;
+}
+
+			/*-------------------------Navigation Bar---------------------*/
+			
+.nav{
+	height:90px;
+	width: 100%;
+	background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img{
+	height:80px;
+	width: auto;
+	float: left;
+	margin-left: 20px;
+}
+
+.nav-menu{
+	font-family: 'Teko', sans-serif;
+	font-size: 23px;
+	justify-content: space-around;
+}
+
+
+
+.nav-menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.nav-menu ul li a{
+	text-decoration: none;
+	color:white;
+	letter-spacing: 3px;
+	margin-right: 35px;
+	transition: 0.8s ease;
+}
+
+.nav-menu ul li a:hover{
+	text-decoration: none;
+	letter-spacing: 3px;
+	margin-right: 20px;
+	padding:5px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.nav-menu ul li a span:hover{
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+
+.active a{
+	text-decoration: none;
+	letter-spacing: 3px;
+	margin-right: 20px;
+	padding:5px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.active a span{
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+
+
+/*------------------------------------Banner---------------------------------*/
+.banner-profile{
+	margin-bottom: 150px;
+}
+.banner{
+	margin:10px 0px;
+	height: 400px;
+	width:100%;
+	background:url(pictures/contact.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.banner-text{
+	background:black;
+	opacity: 70%;
+	width: 20%;
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+}
+
+.profile {
+	height: 200px;
+	border-radius: 150px;
+	position: absolute;
+	top: 400px;
+	left: 40%;
+	transition: 1s ease;
+}
+
+
+.profile:hover {
+	transform: scale(1.1);
+}
+
+.name{
+	position: absolute;
+	top: 610px;
+	left: 36.5%;
+	letter-spacing: 15px;
+	font-size: 30px;
+	font-family: Helvetica;
+	font-weight: bolder;
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+ 	 transition: 1s ease;
+}
+
+.name:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+/*----------------------------------Mid-Secion------------------------*/
+.midsection{
+	display: flex;
+	text-align: center;
+
+}
+h2{
+	/*font-size: 30px;*/
+	font-family: Helvetica;
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+/*----------------------------------Map------------------------*/
+.map{
+	height: 350px;
+	width: 400px;
+	flex-basis: 20%;
+	margin:3px 30px 20px 30px;
+}
+/*----------------------------------Form------------------------*/
+.form{
+	line-height: 100%;
+	text-align: center;
+	margin: 10px 0px;
+	flex-basis: 80%;
+}
+
+.form input[type=text]{
+	line-height: 100%;
+	height:45px;
+	text-align: center;
+	margin: 10px 0px;
+	color:#2E86C1;
+	width:60%;
+	outline:none;
+	border:2px solid #2E86C1 ;
+	border-radius: 10px;
+	font-size: 18px;
+	font-family: Verdana;
+	transition: 2s ease;
+}
+
+.form input[type=textarea]{
+	line-height: 100%;
+	height:80px;
+	text-align: center;
+	margin: 10px 0px;
+	color:#2E86C1;
+	width:60%;
+	outline:none;
+	border:2px solid #2E86C1 ;
+	border-radius: 10px;
+	font-size: 18px;
+	font-family: Verdana;
+	transition: 2s ease;
+}
+
+.form input[type=text]:hover{
+	color:white;
+	width:60%;
+	outline:none;
+	background: lightblue;
+	border:2px solid #2E86C1 ;
+	transform: scale(1.1);
+}
+
+.form input[type=textarea]:hover{
+	color:white;
+	width:60%;
+	outline:none;
+	background: lightblue;
+	border:2px solid #2E86C1 ;
+	transform: scale(1.1);
+}
+
+.form input[type=submit], input[type=reset]{
+	padding: 10px;
+	margin:0px 25px;
+	font-family: Helvetica;
+	border-radius: 25px;
+	border: 2px  solid  #2E86C1;
+	background: transparent;
+	outline:none;
+	position: relative;
+	transition: 0.2s ease;
+
+}
+
+.form input[type=submit]:hover{
+	padding: 10px;
+	margin:0px 25px;
+	font-family: Helvetica;
+	border-radius: 25px;
+	border: 2px  solid  #2E86C1;
+	background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0); 
+	color:white;
+	outline:none;
+	cursor:pointer;
+}
+
+.form input[type=reset]:hover{
+	padding: 10px;
+	margin:0px 25px;
+	font-family: Helvetica;
+	border-radius: 25px;
+	color:white;
+	border: 2px  solid  #2E86C1;
+	background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+	outline:none;
+	cursor:pointer;
+}
+
+
+
+
+
+
+/*-------------------Footer--------------*/
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+footer .fa {
+  padding: 2px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  transition: 0.7s ease-in-out;
+}
+
+#facebook:hover{
+  color:white;
+  background:blue;
+  width: 15px;
+  padding:5px;
+}
+
+#twitter:hover{
+  color:white;
+  background:#00acee;
+  width: 15px;
+  padding:5px;
+}
+
+#instagram:hover{
+  color:white;
+  background:skyblue;
+  width: 15px;
+  padding:5px;
+  background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+}
+
+/*--------------------------- MObile Devices---------------------------------*/
+@media (max-width: 767px){
+*{
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	width:100%;
+	height: auto;
+}
+
+			/*-------------------------Navigation Bar---------------------*/
+			
+.nav{
+	height:90px;
+	width: 100%;
+	background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img{
+	height:80px;
+	width: auto;
+	float: left;
+	margin-left: 20px;
+}
+
+.nav-menu{
+	font-family: 'Teko', sans-serif;
+	font-size: 23px;
+	justify-content: space-around;
+}
+
+
+
+.nav-menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.nav-menu ul li a{
+	text-decoration: none;
+	color:white;
+	letter-spacing: 3px;
+	margin-right: 35px;
+	transition: 0.8s ease;
+}
+
+.nav-menu ul li a:hover{
+	text-decoration: none;
+	letter-spacing: 3px;
+	margin-right: 20px;
+	padding:5px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.nav-menu ul li a span:hover{
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+
+.active a{
+	text-decoration: none;
+	letter-spacing: 3px;
+	margin-right: 20px;
+	padding:5px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.active a span{
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+
+
+/*------------------------------------Banner---------------------------------*/
+.banner-profile{
+	margin-bottom: 150px;
+}
+.banner{
+	margin:10px 0px;
+	height: 400px;
+	width:100%;
+	background:url(pictures/contact.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.banner-text{
+	background:black;
+	opacity: 70%;
+	width: 20%;
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+}
+
+.profile {
+	height: 200px;
+	border-radius: 150px;
+	position: absolute;
+	top: 400px;
+	left: 40%;
+	transition: 1s ease;
+}
+
+
+.profile:hover {
+	transform: scale(1.1);
+}
+
+.name{
+	position: absolute;
+	top: 610px;
+	left: 36.5%;
+	letter-spacing: 15px;
+	font-size: 30px;
+	font-family: Helvetica;
+	font-weight: bolder;
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+ 	 transition: 1s ease;
+}
+
+.name:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+/*----------------------------------Mid-Secion------------------------*/
+.midsection{
+	text-align: center;
+
+}
+h2{
+	/*font-size: 30px;*/
+	font-family: Verdana;
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+/*----------------------------------Map------------------------*/
+.map{
+	height: 350px;
+	width: 400px;
+	margin:3px 30px 20px 30px;
+}
+/*----------------------------------Form------------------------*/
+.form{
+	line-height: 100%;
+	text-align: center;
+	margin: 10px 0px;
+}
+
+.form input[type=text]{
+	line-height: 100%;
+	height:45px;
+	text-align: center;
+	margin: 10px 0px;
+	color:#2E86C1;
+	width:40%;
+	outline:none;
+	border:2px solid #2E86C1 ;
+	border-radius: 10px;
+	font-size: 18px;
+	font-family: Verdana;
+	transition: 2s ease;
+}
+
+.form input[type=textarea]{
+	line-height: 100%;
+	height:80px;
+	text-align: center;
+	margin: 10px 0px;
+	color:#2E86C1;
+	width:40%;
+	outline:none;
+	border:2px solid #2E86C1 ;
+	border-radius: 10px;
+	font-size: 18px;
+	font-family: Verdana;
+	transition: 2s ease;
+}
+
+.form input[type=text]:hover{
+	color:white;
+	width:50%;
+	outline:none;
+	background: lightblue;
+	border:2px solid #2E86C1 ;
+	transform: scale(1.1);
+}
+
+.form input[type=textarea]:hover{
+	color:white;
+	width:50%;
+	outline:none;
+	background: lightblue;
+	border:2px solid #2E86C1 ;
+	transform: scale(1.1);
+}
+
+.form input[type=submit], input[type=reset]{
+	padding: 10px;
+	margin:0px 25px;
+	font-family: Helvetica;
+	border-radius: 25px;
+	border: 2px  solid  #2E86C1;
+	background: transparent;
+	outline:none;
+	position: relative;
+	transition: 0.2s ease;
+
+}
+
+.form input[type=submit]:hover{
+	padding: 10px;
+	margin:0px 25px;
+	font-family: Helvetica;
+	border-radius: 25px;
+	border: 2px  solid  #2E86C1;
+	background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0); 
+	color:white;
+	outline:none;
+	cursor:pointer;
+}
+
+.form input[type=reset]:hover{
+	padding: 10px;
+	margin:0px 25px;
+	font-family: Helvetica;
+	border-radius: 25px;
+	color:white;
+	border: 2px  solid  #2E86C1;
+	background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+	outline:none;
+	cursor:pointer;
+}
+
+
+
+
+
+
+/*-------------------Footer--------------*/
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+footer .fa {
+  padding: 2px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  transition: 0.7s ease-in-out;
+}
+
+#facebook:hover{
+  color:white;
+  background:blue;
+  width: 15px;
+  padding:5px;
+}
+
+#twitter:hover{
+  color:white;
+  background:#00acee;
+  width: 15px;
+  padding:5px;
+}
+
+#instagram:hover{
+  color:white;
+  background:skyblue;
+  width: 15px;
+  padding:5px;
+  background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+}

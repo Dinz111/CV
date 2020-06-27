@@ -1,0 +1,863 @@
+		/*-----------------------Large Devices------------------------*/
+
+@media(min-width: 1200px){
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	width:100%;
+	height: auto;
+}
+
+			/*-------------------------Navigation Bar---------------------*/
+			
+.nav{
+	height:90px;
+	width: 100%;
+	background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img{
+	height:80px;
+	width: auto;
+	float: left;
+	margin-left: 20px;
+}
+
+.nav-menu{
+	font-family: 'Teko', sans-serif;
+	font-size: 23px;
+	justify-content: space-around;
+}
+
+
+
+.nav-menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.nav-menu ul li a{
+	text-decoration: none;
+	color:white;
+	letter-spacing: 3px;
+	margin-right: 35px;
+	transition: 0.8s ease;
+}
+
+.nav-menu ul li a:hover{
+	text-decoration: none;
+	letter-spacing: 3px;
+	margin-right: 20px;
+	padding:5px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.nav-menu ul li a span:hover{
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+
+.active a{
+	text-decoration: none;
+	letter-spacing: 3px;
+	margin-right: 20px;
+	padding:5px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.active a span{
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+
+
+/*------------------------------------Banner---------------------------------*/
+.banner-profile{
+	margin-bottom: 150px;
+}
+.banner{
+	margin:10px 0px;
+	height: 400px;
+	width:100%;
+	background:url(pictures/t4.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.banner-text{
+	background:black;
+	opacity: 70%;
+	width: 40%;
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+}
+
+.profile {
+	height: 200px;
+	border-radius: 150px;
+	position: absolute;
+	top: 400px;
+	left: 40%;
+	transition: 1s ease;
+}
+
+.profile:hover {
+	transform: scale(1.1);
+}
+
+.name{
+	position: absolute;
+	top: 610px;
+	left: 36.5%;
+	letter-spacing: 15px;
+	font-size: 30px;
+	font-family: Helvetica;
+	font-weight: bolder;
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+ 	 transition: 1s ease;
+}
+
+.name:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+/*----------------------------------Table------------------------*/
+table{
+	width: 50%;
+	margin-left: 23.5%;
+	border-collapse: collapse;
+	background-image:url(pictures/table.jpg);
+	color:white;
+	margin-bottom: 15px;
+	transition: 1s ease-in-out;
+}
+
+table td{
+	padding:10px;
+}
+
+table tr:hover{
+	text-align: center;
+	font-size: 20px;
+	background: white;
+	color:black;
+	font-family: 'Teko', sans-serif;
+}
+
+/*-------------------Footer--------------*/
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+footer .fa {
+  padding: 2px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  transition: 0.7s ease-in-out;
+}
+
+#facebook:hover{
+  color:white;
+  background:blue;
+  width: 15px;
+  padding:5px;
+}
+
+#twitter:hover{
+  color:white;
+  background:#00acee;
+  width: 15px;
+  padding:5px;
+}
+
+#instagram:hover{
+  color:white;
+  background:skyblue;
+  width: 15px;
+  padding:5px;
+  background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+}
+
+
+
+	/*---------------------------LIttle large Devices-------------------*/
+
+@media(min-width: 992px) and (max-width:1199px){
+	
+*{
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	width:100%;
+	height: auto;
+}
+
+			/*-------------------------Navigation Bar---------------------*/
+			
+.nav{
+	height:90px;
+	width: 100%;
+	background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img{
+	height:80px;
+	width: auto;
+	float: left;
+	margin-left: 20px;
+}
+
+.nav-menu{
+	font-family: 'Teko', sans-serif;
+	font-size: 23px;
+	justify-content: space-around;
+}
+
+
+
+.nav-menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.nav-menu ul li a{
+	text-decoration: none;
+	color:white;
+	letter-spacing: 3px;
+	margin-right: 35px;
+	transition: 0.8s ease;
+}
+
+.nav-menu ul li a:hover{
+	text-decoration: none;
+	letter-spacing: 3px;
+	margin-right: 20px;
+	padding:5px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.nav-menu ul li a span:hover{
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+
+.active a{
+	text-decoration: none;
+	letter-spacing: 3px;
+	margin-right: 20px;
+	padding:5px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.active a span{
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+
+
+/*------------------------------------Banner---------------------------------*/
+.banner-profile{
+	margin-bottom: 150px;
+}
+.banner{
+	margin:10px 0px;
+	height: 400px;
+	width:100%;
+	background:url(pictures/t4.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.banner-text{
+	background:black;
+	opacity: 70%;
+	width: 40%;
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+}
+
+.profile {
+	height: 200px;
+	border-radius: 150px;
+	position: absolute;
+	top: 400px;
+	left: 40%;
+	transition: 1s ease;
+}
+
+.profile:hover {
+	transform: scale(1.1);
+}
+
+.name{
+	position: absolute;
+	top: 610px;
+	left: 36.5%;
+	letter-spacing: 15px;
+	font-size: 30px;
+	font-family: Helvetica;
+	font-weight: bolder;
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+ 	 transition: 1s ease;
+}
+
+.name:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+/*----------------------------------Table------------------------*/
+table{
+	width: 50%;
+	margin-left: 23.5%;
+	border-collapse: collapse;
+	background-image:url(pictures/table.jpg);
+	color:white;
+	margin-bottom: 15px;
+	transition: 1s ease-in-out;
+}
+
+table td{
+	padding:10px;
+}
+
+table tr:hover{
+	text-align: center;
+	font-size: 20px;
+	background: white;
+	color:black;
+	font-family: 'Teko', sans-serif;
+}
+
+/*-------------------Footer--------------*/
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+footer .fa {
+  padding: 2px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  transition: 0.7s ease-in-out;
+}
+
+#facebook:hover{
+  color:white;
+  background:blue;
+  width: 15px;
+  padding:5px;
+}
+
+#twitter:hover{
+  color:white;
+  background:#00acee;
+  width: 15px;
+  padding:5px;
+}
+
+#instagram:hover{
+  color:white;
+  background:skyblue;
+  width: 15px;
+  padding:5px;
+  background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+}
+
+
+	/*---------------------------Tablet Devices-------------------*/
+
+@media(min-width: 768px) and (max-width:991px){
+	
+*{
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	width:100%;
+	height: auto;
+}
+
+			/*-------------------------Navigation Bar---------------------*/
+			
+.nav{
+	height:90px;
+	width: 100%;
+	background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img{
+	height:80px;
+	width: auto;
+	float: left;
+	margin-left: 20px;
+}
+
+.nav-menu{
+	font-family: 'Teko', sans-serif;
+	font-size: 23px;
+	justify-content: space-around;
+}
+
+
+
+.nav-menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.nav-menu ul li a{
+	text-decoration: none;
+	color:white;
+	letter-spacing: 3px;
+	margin-right: 35px;
+	transition: 0.8s ease;
+}
+
+.nav-menu ul li a:hover{
+	text-decoration: none;
+	letter-spacing: 3px;
+	margin-right: 20px;
+	padding:5px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.nav-menu ul li a span:hover{
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+
+.active a{
+	text-decoration: none;
+	letter-spacing: 3px;
+	margin-right: 20px;
+	padding:5px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.active a span{
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+
+
+/*------------------------------------Banner---------------------------------*/
+.banner-profile{
+	margin-bottom: 150px;
+}
+.banner{
+	margin:10px 0px;
+	height: 400px;
+	width:100%;
+	background:url(pictures/t4.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.banner-text{
+	background:black;
+	opacity: 70%;
+	width: 40%;
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+}
+
+.profile {
+	height: 200px;
+	border-radius: 150px;
+	position: absolute;
+	top: 400px;
+	left: 35%;
+	transition: 1s ease;
+}
+
+.profile:hover {
+	transform: scale(1.1);
+}
+
+.name{
+	position: absolute;
+	top: 610px;
+	left: 29%;
+	letter-spacing: 15px;
+	font-size: 30px;
+	font-family: Helvetica;
+	font-weight: bolder;
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+ 	 transition: 1s ease;
+}
+
+.name:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+/*----------------------------------Table------------------------*/
+table{
+	width: 50%;
+	margin-left: 23.5%;
+	border-collapse: collapse;
+	background-image:url(pictures/table.jpg);
+	color:white;
+	margin-bottom: 15px;
+	transition: 1s ease-in-out;
+}
+
+table td{
+	padding:10px;
+}
+
+table tr:hover{
+	text-align: center;
+	font-size: 20px;
+	background: white;
+	color:black;
+	font-family: 'Teko', sans-serif;
+}
+
+/*-------------------Footer--------------*/
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+footer .fa {
+  padding: 2px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  transition: 0.7s ease-in-out;
+}
+
+#facebook:hover{
+  color:white;
+  background:blue;
+  width: 15px;
+  padding:5px;
+}
+
+#twitter:hover{
+  color:white;
+  background:#00acee;
+  width: 15px;
+  padding:5px;
+}
+
+#instagram:hover{
+  color:white;
+  background:skyblue;
+  width: 15px;
+  padding:5px;
+  background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+}
+
+	/*---------------------------Mobile Devices-------------------*/
+
+@media (max-width:767px){
+	
+*{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+main{
+	width:100%;
+	height: auto;
+}
+
+			/*-------------------------Navigation Bar---------------------*/
+			
+.nav{
+	height:90px;
+	width: 100%;
+	background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img{
+	height:80px;
+	width: auto;
+	float: left;
+	margin-left: 20px;
+}
+
+.nav-menu{
+	font-family: 'Teko', sans-serif;
+	font-size: 23px;
+	justify-content: space-around;
+}
+
+
+
+.nav-menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.nav-menu ul li a{
+	text-decoration: none;
+	color:white;
+	letter-spacing: 3px;
+	margin-right: 35px;
+	transition: 0.8s ease;
+}
+
+.nav-menu ul li a:hover{
+	text-decoration: none;
+	letter-spacing: 3px;
+	margin-right: 20px;
+	padding:5px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.nav-menu ul li a span:hover{
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+
+.active a{
+	text-decoration: none;
+	letter-spacing: 3px;
+	margin-right: 20px;
+	padding:5px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.active a span{
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+
+
+/*------------------------------------Banner---------------------------------*/
+.banner-profile{
+	margin-bottom: 150px;
+}
+.banner{
+	margin:10px 0px;
+	height: 400px;
+	width:100%;
+	background:url(pictures/t4.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.banner-text{
+	background:black;
+	opacity: 70%;
+	width: 40%;
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+}
+
+.profile {
+	height: 200px;
+	border-radius: 150px;
+	position: absolute;
+	top: 400px;
+	left: 35%;
+	transition: 1s ease;
+}
+
+.profile:hover {
+	transform: scale(1.1);
+}
+
+.name{
+	position: absolute;
+	top: 610px;
+	left: 29%;
+	letter-spacing: 15px;
+	font-size: 30px;
+	font-family: Helvetica;
+	font-weight: bolder;
+	background: -webkit-linear-gradient(#051937, #1DD8D0);
+	-webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+ 	 transition: 1s ease;
+}
+
+.name:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+/*----------------------------------Table------------------------*/
+table{
+	width: 50%;
+	margin-left: 23.5%;
+	border-collapse: collapse;
+	background-image:url(pictures/table.jpg);
+	color:white;
+	margin-bottom: 15px;
+	transition: 1s ease-in-out;
+}
+
+table td{
+	padding:10px;
+}
+
+table tr:hover{
+	text-align: center;
+	font-size: 20px;
+	background: white;
+	color:black;
+	font-family: 'Teko', sans-serif;
+}
+
+/*-------------------Footer--------------*/
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(to left bottom, #051937, #004368, #007295, #00a4b9, #1dd8d0);
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+footer .fa {
+  padding: 2px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  transition: 0.7s ease-in-out;
+}
+
+#facebook:hover{
+  color:white;
+  background:blue;
+  width: 15px;
+  padding:5px;
+}
+
+#twitter:hover{
+  color:white;
+  background:#00acee;
+  width: 15px;
+  padding:5px;
+}
+
+#instagram:hover{
+  color:white;
+  background:skyblue;
+  width: 15px;
+  padding:5px;
+  background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+}
